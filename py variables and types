@@ -1,0 +1,48 @@
+var1=10000
+# this assigns the numerical value of 10000 to var1
+var2=3
+# this assigns the numerical value of 3 to var2
+var3=0
+# this assigns the numerical value of 0 to var3
+
+print(var1/var2)
+print(type(var1/var2))
+      # this tests to see if the answer above was a "float" (a decimal number)
+print(int(var1/var2)
+      # this will truncate the decimal, making it a whole integer. Example=3.33333333 will now just be three. it is important that this is different than rounding, because 3.6666 will also be three. 
+
+      
+print(var1+var2)
+print(var2*var3)
+      
+print(var1/var3)
+# this results in an error because python cant divide by 0 (just like in normal math)
+      
+firstword="hello"
+secondword="world"
+space=" "
+punctuation="!"
+
+print(type(firstword + space + secondword + punctuation))     
+# this will test the type of the string
+print(firstword+space+secondword+punctuation) 
+#this should print out the full sentence of "hello world!)
+print(firstword-secondword)
+# this ends up with an error because you can not subtract words
+
+var1=10000
+print(type(var1))
+var1=float(10000)
+print(type(10000))
+# this should convert the variable from an interger to a float. 
+
+print(float(firstword))
+# this will produce an error because you can't float words!
+
+print(" ")
+print("done :)")
+
+
+
+
+
